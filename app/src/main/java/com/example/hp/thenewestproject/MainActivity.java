@@ -1,6 +1,8 @@
 package com.example.hp.thenewestproject;
 
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -22,7 +24,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView tvResult = findViewById(R.id.tvResult);
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent i = new Intent(MainActivity.this,SplashActivity.class);
+                startActivity(i);
+                finish();
+            }
+        }, 5*1000);
+
+        /*TextView tvResult = findViewById(R.id.tvResult);
         TextView newText = findViewById(R.id.tvAnotherResult);
         Button btn = findViewById(R.id.btnId);
 
@@ -38,6 +49,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), getString(R.string.textByButton), Toast.LENGTH_LONG).show();
             }
-        });
+        });*/
     }
 }
