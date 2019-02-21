@@ -5,4 +5,11 @@
     <string name="click">Click</string>
     <string name="textByButton">textText</string>
     <string name="loadingText">Загрузка...</string>
+    <string name="testText">TextText</string>
+    <string name="news">Новости</string>
+    <string name="search">Поиск</string>
+    <string name="help">Помощь</string>
+    <string name="history">История</string>
+    <string name="profile">Профиль</string>
+    <string name="chooseCategory">Выберите категорию помощи</string>
 </resources>

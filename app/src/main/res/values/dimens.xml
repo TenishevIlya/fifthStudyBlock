@@ -23,4 +23,29 @@
     <dimen name="simbirImgRightMarg">122dp</dimen>
     <dimen name="simbirImgLeftMarg">122dp</dimen>
     <dimen name="simbirImgBotMarg">40dp</dimen>
+
+    <dimen name="circleWidth">42dp</dimen>
+    <dimen name="circleHeight">42dp</dimen>
+
+    <dimen name="gridImageHeight">80dp</dimen>
+    <dimen name="gridImageWidth">120dp</dimen>
+    <dimen name="gridImageMargLeft">24dp</dimen>
+    <dimen name="gridImageMargRight">24dp</dimen>
+    <dimen name="gridImageMargTop">12dp</dimen>
+    <dimen name="gridImageMargBot">36dp</dimen>
+
+    <dimen name="gridTextViewMargTop">104dp</dimen>
+    <dimen name="gridTextViewMargBot">12dp</dimen>
+    <dimen name="gridTextViewTextSize">15sp</dimen>
+
+    <dimen name="recyclerViewMargTop">20dp</dimen>
+
+    <dimen name="recyclerTextViewHeight">19dp</dimen>
+    <dimen name="recyclerTextViewWidth">223dp</dimen>
+    <dimen name="recyclerViewTextViewMargLeft">68.5</dimen>
+    <dimen name="recyclerViewTextViewMargTop">19dp</dimen>
+    <dimen name="recyclerViewTextViewMargRight">68.5</dimen>
+    <dimen name="recyclerViewTextViewSize">16sp</dimen>
+
+    <dimen name="bottomNavHeight">54dp</dimen>
 </resources>

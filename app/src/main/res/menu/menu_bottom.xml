@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_news"
+        android:icon="@mipmap/news"
+        android:title="@string/news"/>
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@mipmap/searh"
+        android:title="@string/search" />
+
+    <item
+        android:id="@+id/menu_help"
+        android:icon="@drawable/shape"
+        android:title="@string/help"/>
+
+    <item
+        android:id="@+id/menu_history"
+        android:icon="@mipmap/history"
+        android:title="@string/history"/>
+
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@mipmap/profile"
+        android:title="@string/profile"/>
+
+</menu>

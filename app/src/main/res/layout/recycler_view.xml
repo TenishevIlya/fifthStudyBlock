@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="4dp">
+
+    <TextView
+        android:layout_width="@dimen/recyclerTextViewWidth"
+        android:layout_height="@dimen/recyclerTextViewHeight"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/recyclerViewTextViewMargLeft"
+        android:layout_marginTop="@dimen/recyclerViewTextViewMargTop"
+        android:layout_marginEnd="@dimen/recyclerViewTextViewMargRight"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="@string/chooseCategory"
+        android:textColor="@color/black__87"
+        android:textSize="@dimen/recyclerViewTextViewSize"
+        android:textStyle="normal"
+        android:id="@+id/headline"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headline"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/recyclerViewMargTop">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottomNavHeight"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_bottom"/>
+
+</RelativeLayout>
