@@ -7,7 +7,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyHolder>{
 
@@ -26,7 +30,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyHolder>{
     @Override
     public MyHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
 
-        View layout = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.grid_layout,null);
+        View layout = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.grid_layout, viewGroup, false);
         MyHolder myHolder = new MyHolder(layout);
 
         return myHolder;
@@ -48,10 +52,18 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyHolder>{
         ImageView img;
         TextView txt;
 
+        @BindView(R.id.imageView1)
+        ImageView image;
+
+        @BindView(R.id.textView1)
+        TextView text;
+
+
         public MyHolder(@NonNull View itemView) {
             super(itemView);
-            img = itemView.findViewById(R.id.imageView1);
-            txt = itemView.findViewById(R.id.textView1);
+            ButterKnife.bind(this, itemView);
+            img = image;
+            txt = text;
         }
     }
 }

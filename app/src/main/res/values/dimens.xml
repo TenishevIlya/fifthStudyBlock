@@ -35,7 +35,7 @@
     <dimen name="gridImageMargBot">36dp</dimen>
 
     <dimen name="gridTextViewMargTop">104dp</dimen>
-    <dimen name="gridTextViewMargBot">12dp</dimen>
+    <dimen name="gridTextViewMargBot">5dp</dimen>
     <dimen name="gridTextViewTextSize">15sp</dimen>
 
     <dimen name="recyclerViewMargTop">20dp</dimen>
