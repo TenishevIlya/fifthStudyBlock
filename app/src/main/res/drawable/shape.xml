@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="oval">
-    <size
-        android:width="@dimen/circleWidth"
-        android:height="@dimen/circleHeight"/>
-    <solid
-        android:color="@color/colorMelon" />
-</shape>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="oval">
+            <size
+                android:width="42dp"
+                android:height="42dp"/>
+            <solid
+                android:color="@color/colorMelon" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/heart"
+        android:width="15dp"
+        android:height="18dp"
+        android:gravity="center"/>
+</layer-list>

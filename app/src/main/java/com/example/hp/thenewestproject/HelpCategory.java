@@ -48,9 +48,4 @@ public class HelpCategory extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
-
-    public static String getClassName(){
-        return "HelpCategory.class";
-    };
 }
