@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">TheNewestProject</string>
     <string name="str">Hello World!</string>
     <string name="anotherstr">Hello World!</string>
@@ -12,4 +12,12 @@
     <string name="history">История</string>
     <string name="profile">Профиль</string>
     <string name="chooseCategory">Выберите категорию помощи</string>
+    <string-array name="imageTitles">
+        <item>Дети</item>
+        <item>Взрослые</item>
+        <item>Пожилые</item>
+        <item>Животные</item>
+        <item>Мероприятия</item>
+    </string-array>
+    <string name="actionBarTitle">Помочь</string>
 </resources>

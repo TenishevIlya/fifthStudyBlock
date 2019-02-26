@@ -36,11 +36,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyHolder>{
         return myHolder;
     }
 
+
     @Override
     public void onBindViewHolder(@NonNull MyHolder viewHolder, int i) {
-
-        viewHolder.img.setImageResource(images[i]);
-        viewHolder.txt.setText(names[i]);
+        viewHolder.binData(images,names, i);
     }
 
     @Override
@@ -49,8 +48,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyHolder>{
     }
 
     public static class MyHolder extends RecyclerView.ViewHolder{
-        ImageView img;
-        TextView txt;
+
 
         @BindView(R.id.imageView1)
         ImageView image;
@@ -58,12 +56,16 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyHolder>{
         @BindView(R.id.textView1)
         TextView text;
 
+        public void binData(int[] imagesArray, String[] titlesArray,int i){
+            ButterKnife.bind(this, itemView);
+            image.setImageResource(imagesArray[i]);
+            text.setText(titlesArray[i]);
+        }
+
+
 
         public MyHolder(@NonNull View itemView) {
             super(itemView);
-            ButterKnife.bind(this, itemView);
-            img = image;
-            txt = text;
         }
     }
 }
