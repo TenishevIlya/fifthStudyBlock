@@ -8,9 +8,6 @@ import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    private int[] arr = {2, 4, 1, 5, 6, 3};
-    private int[] arr1 = {5, 4, 7, 1, 2, 3, 1, 8};
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

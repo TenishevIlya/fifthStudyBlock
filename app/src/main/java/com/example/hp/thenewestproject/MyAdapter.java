@@ -1,6 +1,7 @@
 package com.example.hp.thenewestproject;
 
 import android.content.Context;
+import android.graphics.Bitmap;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -15,13 +16,11 @@ import butterknife.ButterKnife;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyHolder>{
 
-    private Context context;
-    private int images[];
+    private Bitmap images[];
     private String names[];
 
 
-    public MyAdapter(Context context, int[] images, String[] names) {
-        this.context = context;
+    public MyAdapter(Bitmap[] images, String[] names) {
         this.images = images;
         this.names = names;
     }
@@ -49,16 +48,15 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyHolder>{
 
     public static class MyHolder extends RecyclerView.ViewHolder{
 
-
         @BindView(R.id.imageView1)
         ImageView image;
 
         @BindView(R.id.textView1)
         TextView text;
 
-        public void binData(int[] imagesArray, String[] titlesArray,int i){
+        public void binData(Bitmap[] imagesArray, String[] titlesArray,int i){
             ButterKnife.bind(this, itemView);
-            image.setImageResource(imagesArray[i]);
+            image.setImageBitmap(imagesArray[i]);
             text.setText(titlesArray[i]);
         }
 
