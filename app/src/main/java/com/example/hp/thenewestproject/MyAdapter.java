@@ -1,6 +1,5 @@
 package com.example.hp.thenewestproject;
 
-import android.content.Context;
 import android.graphics.Bitmap;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -8,20 +7,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import butterknife.BindBitmap;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+
+
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyHolder>{
 
-    private Bitmap images[];
     private String names[];
 
-
-    public MyAdapter(Bitmap[] images, String[] names) {
-        this.images = images;
+    public MyAdapter(String[] names) {
         this.names = names;
     }
 
@@ -38,7 +36,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyHolder>{
 
     @Override
     public void onBindViewHolder(@NonNull MyHolder viewHolder, int i) {
-        viewHolder.binData(images,names, i);
+        viewHolder.binData(names, i);
     }
 
     @Override
@@ -54,9 +52,26 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyHolder>{
         @BindView(R.id.textView1)
         TextView text;
 
-        public void binData(Bitmap[] imagesArray, String[] titlesArray,int i){
+        @BindBitmap(R.mipmap.face_kids)
+        Bitmap kids;
+
+        @BindBitmap(R.mipmap.face_adults)
+        Bitmap adults;
+
+        @BindBitmap(R.mipmap.face_old)
+        Bitmap olds;
+
+        @BindBitmap(R.mipmap.face_animals)
+        Bitmap animals;
+
+        @BindBitmap(R.mipmap.icon_event)
+        Bitmap events;
+
+
+        public void binData(String[] titlesArray,int i){
             ButterKnife.bind(this, itemView);
-            image.setImageBitmap(imagesArray[i]);
+            Bitmap imgs[] = {kids, adults, olds, animals, events};
+            image.setImageBitmap(imgs[i]);
             text.setText(titlesArray[i]);
         }
 
