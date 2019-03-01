@@ -8,6 +8,9 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
 
+import java.util.List;
+
+import butterknife.BindArray;
 import butterknife.BindBitmap;
 import butterknife.BindString;
 import butterknife.BindView;
@@ -23,25 +26,24 @@ public class HelpCategory extends AppCompatActivity {
     @BindString(R.string.actionBarTitle)
     String barTitle;
 
+    @BindArray(R.array.imageTitles)
+    String[] imgTitles;
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.help_screen);
-
-        GridLayoutManager glm;
-
         ButterKnife.bind(this);
-        //Bitmap imgs[] = {kids, adults, olds, animals, events};
-        String imgNames[] = getResources().getStringArray(R.array.imageTitles);
 
-        ButterKnife.bind(this);
+        String imgNames[] = imgTitles;
+
 
         getSupportActionBar().setTitle(barTitle);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
-        glm = new GridLayoutManager(HelpCategory.this, elemCount);
+        GridLayoutManager glm = new GridLayoutManager(HelpCategory.this, elemCount);
         showRecycler.setHasFixedSize(true);
         showRecycler.setLayoutManager(glm);
         MyAdapter adapter = new MyAdapter(imgNames);
