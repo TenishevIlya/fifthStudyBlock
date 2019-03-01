@@ -36,8 +36,6 @@ public class HelpCategory extends AppCompatActivity {
         setContentView(R.layout.help_screen);
         ButterKnife.bind(this);
 
-        String imgNames[] = imgTitles;
-
 
         getSupportActionBar().setTitle(barTitle);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -46,7 +44,7 @@ public class HelpCategory extends AppCompatActivity {
         GridLayoutManager glm = new GridLayoutManager(HelpCategory.this, elemCount);
         showRecycler.setHasFixedSize(true);
         showRecycler.setLayoutManager(glm);
-        MyAdapter adapter = new MyAdapter(imgNames);
+        MyAdapter adapter = new MyAdapter(imgTitles);
         showRecycler.setAdapter(adapter);
     }
 
