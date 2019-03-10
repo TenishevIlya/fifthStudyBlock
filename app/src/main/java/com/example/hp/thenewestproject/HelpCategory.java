@@ -1,5 +1,7 @@
 package com.example.hp.thenewestproject;
 
+import android.content.ClipData;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -30,6 +32,7 @@ public class HelpCategory extends AppCompatActivity {
     String[] imgTitles;
 
 
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,5 +58,10 @@ public class HelpCategory extends AppCompatActivity {
             finish();
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onMenuItemClick(MenuItem item) {
+        Intent i = new Intent(HelpCategory.this, Profile.class);
+        startActivity(i);
     }
 }
