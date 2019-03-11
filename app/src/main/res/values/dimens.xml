@@ -48,4 +48,107 @@
     <dimen name="recyclerViewTextViewSize">16sp</dimen>
 
     <dimen name="bottomNavHeight">54dp</dimen>
+
+    <dimen name="profileImageHeight">220dp</dimen>
+
+    <dimen name="profileNameMrgTop">20dp</dimen>
+    <dimen name="profileNameMrgStart">20dp</dimen>
+    <dimen name="profileNameMrgEnd">102dp</dimen>
+    <dimen name="profileNameTextSize">24sp</dimen>
+    <dimen name="profileNameLineSpacing">8sp</dimen>
+
+    <dimen name="birthHeaderMrgTop">16dp</dimen>
+    <dimen name="birthHeaderMrgStart">29dp</dimen>
+    <dimen name="birthHeaderMrgEnd">259dp</dimen>
+    <dimen name="birthHeaderTextSize">12sp</dimen>
+    <dimen name="birthHeaderLineSpacing">4sp</dimen>
+    <string name="birthHeaderBias">0.25</string>
+
+    <dimen name="birthDateMrgTop">32dp</dimen>
+    <dimen name="birthDateMrgStart">20dp</dimen>
+    <dimen name="birthDateMrgEnd">213dp</dimen>
+    <dimen name="birthDateTextSize">16sp</dimen>
+    <dimen name="birthDateLineSpacing">8sp</dimen>
+
+    <dimen name="sphereHeaderMrgTop">16dp</dimen>
+    <dimen name="sphereHeaderMrgEnd">259dp</dimen>
+    <dimen name="sphereHeaderTextSize">12sp</dimen>
+    <dimen name="sphereHeaderLineSpacing">4sp</dimen>
+
+    <dimen name="sphereMrgTop">134dp</dimen>
+    <dimen name="sphereMrgEnd">148dp</dimen>
+    <dimen name="sphereTextSize">16sp</dimen>
+    <dimen name="sphereLineSpacing">8sp</dimen>
+
+    <dimen name="pushMrgTop">20dp</dimen>
+    <dimen name="pushMrgEnd">1218dp</dimen>
+    <dimen name="pushTextSize">16sp</dimen>
+
+    <dimen name="friendsHeaderMrgTop">20dp</dimen>
+    <dimen name="friendsHeaderMrgEnd">267dp</dimen>
+    <dimen name="friendsHeaderTextSize">12sp</dimen>
+    <dimen name="friendsHeaderLineSpacing">4sp</dimen>
+
+    <dimen name="switchMargTop">20dp</dimen>
+    <dimen name="switchMargStart">58dp</dimen>
+    <dimen name="switchMargEnd">26dp</dimen>
+
+    <dimen name="lineMargTop">18dp</dimen>
+
+    <dimen name="firstFriendPicMargTop">16dp</dimen>
+    <dimen name="firstFriendPicMargEnd">292dp</dimen>
+
+    <dimen name="secondFriendPicMargTop">74dp</dimen>
+    <dimen name="secondFriendPicMargEnd">292dp</dimen>
+
+    <dimen name="thirdFriendPicMargTop">132dp</dimen>
+    <dimen name="thirdFriendPicMargEnd">292dp</dimen>
+
+    <dimen name="firstFriendNameMargTop">27dp</dimen>
+    <dimen name="firstFriendNameMargStart">88dp</dimen>
+    <dimen name="firstFriendNameMargEnd">128dp</dimen>
+    <dimen name="firstFriendNameTextSize">16sp</dimen>
+
+    <dimen name="secondFriendNameMargTop">85dp</dimen>
+    <dimen name="secondFriendNameMargEnd">107dp</dimen>
+    <dimen name="secondFriendNameTextSize">16sp</dimen>
+
+    <dimen name="thirdFriendNameMargTop">145dp</dimen>
+    <dimen name="thirdFriendNameMargEnd">107dp</dimen>
+    <dimen name="thirdFriendNameTextSize">16sp</dimen>
+
+    <dimen name="secondLineMargTop">20dp</dimen>
+
+    <dimen name="logOffBtnMargTop">20dp</dimen>
+    <dimen name="logOffBtnMargStart">97dp</dimen>
+    <dimen name="logOffBtnMargEnd">97dp</dimen>
+    <dimen name="logOffBtnWidth">166dp</dimen>
+    <dimen name="logOffBtnHeight">36dp</dimen>
+
+    <dimen name="logOffBtnTextMargTop">11dp</dimen>
+    <dimen name="logOffBtnTextMargBottom">9dp</dimen>
+    <dimen name="logOffBtnTextMargStart">16dp</dimen>
+    <dimen name="logOffBtnTextMargEnd">16dp</dimen>
+    <dimen name="logOffBtnTextSize">14sp</dimen>
+    <dimen name="logOffBtnTextElevation">2dp</dimen>
+
+    <dimen name="profileHeartMargStart">153dp</dimen>
+    <dimen name="profileHeartMargEnd">153dp</dimen>
+    <dimen name="profileHeartMargBottom">22dp</dimen>
+
+    <dimen name="shadowHeight">2dp</dimen>
+
+    <dimen name="profileBotNavHeight">54dp</dimen>
+    <dimen name="profileBotNavMargTop">38dp</dimen>
+
+    <dimen name="profileHeaderMargTop">25dp</dimen>
+    <dimen name="profileHeaderMargBottom">14dp</dimen>
+    <dimen name="profileHeaderMargStart">139.5dp</dimen>
+    <dimen name="profileHeaderMargEnd">139.5dp</dimen>
+    <dimen name="profileHeaderTextSize">21sp</dimen>
+
+    <dimen name="editPicMargBottom">16dp</dimen>
+    <dimen name="editPicMargStart">316dp</dimen>
+    <dimen name="editPicWidth">24dp</dimen>
+    <dimen name="editPicHeight">24dp</dimen>
 </resources>

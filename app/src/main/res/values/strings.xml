@@ -20,4 +20,16 @@
         <item>Мероприятия</item>
     </string-array>
     <string name="actionBarTitle">Помочь</string>
+    <string name="profileNameText">Константинов Денис</string>
+    <string name="birthHeaderText">Дата рождения</string>
+    <string name="birthDate">01 февраля 1980</string>
+    <string name="sphere">Сфера деятельности</string>
+    <string name="sphereText">Хирургия, травмотология</string>
+    <string name="receivePush">Получать push-уведомления</string>
+    <string name="yourFriends">Ваши друзья</string>
+    <string name="firstFriend">Дмитрий Валерьевич</string>
+    <string name="secondFriend">Евгений Александров</string>
+    <string name="thirdFriend">Виктор Кузнецов</string>
+    <string name="logOffText">Выйти из аккаунта</string>
+    <string name="profileHeader">Профиль</string>
 </resources>

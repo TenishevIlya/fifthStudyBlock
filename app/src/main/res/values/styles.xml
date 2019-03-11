@@ -2,7 +2,7 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        <!-- Customize yswour theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -18,5 +18,13 @@
 
     <style name="greyBackground">
         <item name="android:windowBackground">@drawable/rectanglecolor</item>
+    </style>
+
+    <style name="switchColor" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/switch_color</item>
+    </style>
+
+    <style name="lineColor" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/switch_color</item>
     </style>
 </resources>

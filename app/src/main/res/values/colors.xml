@@ -9,4 +9,7 @@
     <color name="colorMelon">#fe7460</color>
     <color name="light_olive_green">#9ebf50</color>
     <color name="black__87">#de000000</color>
+    <color name="black__38">#61000000</color>
+    <color name="leaf">#66a636</color>
+    <color name="cool_grey">#aabbbb</color>
 </resources>
