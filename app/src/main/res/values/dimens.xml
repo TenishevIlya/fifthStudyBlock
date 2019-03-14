@@ -151,4 +151,31 @@
     <dimen name="editPicMargStart">316dp</dimen>
     <dimen name="editPicWidth">24dp</dimen>
     <dimen name="editPicHeight">24dp</dimen>
+
+    <dimen name="dialogPicHeight">24dp</dimen>
+    <dimen name="dialogPicWidth">24dp</dimen>
+    <dimen name="dialogPicMargStart">24dp</dimen>
+    <dimen name="dialogPicMargEnd">24dp</dimen>
+
+    <dimen name="dialogPic1MargTop">32dp</dimen>
+    <dimen name="dialogPic1MargBot">164dp</dimen>
+
+    <dimen name="dialogPic2MargTop">100dp</dimen>
+    <dimen name="dialogPic2MargBot">96dp</dimen>
+
+    <dimen name="dialogPic3MargTop">168dp</dimen>
+    <dimen name="dialogPic3MargBot">28dp</dimen>
+
+    <dimen name="dialogTextSize">22sp</dimen>
+
+    <dimen name="dialogText1MargTop">31dp</dimen>
+    <dimen name="dialogText1MargBot">164dp</dimen>
+    <dimen name="dialogText1MargStart">72dp</dimen>
+    <dimen name="dialogText1MargEnd">91dp</dimen>
+
+    <dimen name="dialogText2MargTop">99dp</dimen>
+    <dimen name="dialogText2MargBot">96dp</dimen>
+
+    <dimen name="dialogText3MargTop">167dp</dimen>
+    <dimen name="dialogText3MargBot">28dp</dimen>
 </resources>

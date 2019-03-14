@@ -32,4 +32,7 @@
     <string name="thirdFriend">Виктор Кузнецов</string>
     <string name="logOffText">Выйти из аккаунта</string>
     <string name="profileHeader">Профиль</string>
+    <string name="chooseFoto">Выбрать фото</string>
+    <string name="makeFoto">Сделать снимок</string>
+    <string name="deleteFoto">Удалить</string>
 </resources>

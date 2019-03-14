@@ -29,7 +29,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/toolBar"
-        app:srcCompat="@mipmap/image_man" />
+        app:srcCompat="@mipmap/image_man"
+        android:onClick="show_dialog"/>
 
     <TextView
         android:id="@+id/textView2"
