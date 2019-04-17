@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/leaf">
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/profileImageHeight"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolBar"
+        app:srcCompat="@mipmap/image_man"
+        android:onClick="show_dialog"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/profileNameMrgStart"
+        android:layout_marginTop="@dimen/profileNameMrgTop"
+        android:layout_marginEnd="@dimen/profileNameMrgEnd"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="@dimen/profileNameLineSpacing"
+        android:textColor="@color/black__87"
+        android:textSize="@dimen/profileNameTextSize"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        android:text="@string/profileNameText" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/birthHeaderMrgTop"
+        android:layout_marginEnd="@dimen/birthHeaderMrgEnd"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="@dimen/birthHeaderLineSpacing"
+        android:text="@string/birthHeaderText"
+        android:textColor="@color/black__38"
+        android:textSize="@dimen/birthHeaderTextSize"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/birthDateMrgStart"
+        android:layout_marginTop="@dimen/birthDateMrgTop"
+        android:layout_marginEnd="@dimen/birthDateMrgEnd"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="@dimen/birthDateLineSpacing"
+        android:text="@string/birthDate"
+        android:textColor="@color/black__87"
+        android:textSize="@dimen/birthDateTextSize"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sphereHeaderMrgTop"
+        android:layout_marginEnd="@dimen/sphereHeaderMrgEnd"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="@dimen/sphereHeaderLineSpacing"
+        android:textColor="@color/black__38"
+        android:textSize="@dimen/sphereHeaderTextSize"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        android:text="@string/sphere" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sphereMrgTop"
+        android:layout_marginEnd="@dimen/sphereMrgEnd"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="@dimen/sphereLineSpacing"
+        android:text="@string/sphereText"
+        android:textColor="@color/black__87"
+        android:textSize="@dimen/sphereTextSize"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pushMrgTop"
+        android:layout_marginEnd="@dimen/pushMrgEnd"
+        android:fontFamily="sans-serif"
+        android:text="@string/receivePush"
+        android:textColor="@color/black__87"
+        android:textSize="@dimen/pushTextSize"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/switchMargStart"
+        android:layout_marginTop="@dimen/switchMargTop"
+        android:theme="@style/switchColor"
+        android:layout_marginEnd="@dimen/switchMargEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/lineMargTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/line" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/friendsHeaderMrgTop"
+        android:layout_marginEnd="@dimen/friendsHeaderMrgEnd"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="@dimen/friendsHeaderLineSpacing"
+        android:text="@string/yourFriends"
+        android:textColor="@color/black__38"
+        android:textSize="@dimen/friendsHeaderTextSize"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/firstFriendPicMargTop"
+        android:layout_marginEnd="@dimen/firstFriendPicMargEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@mipmap/avatar1" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/firstFriendNameMargStart"
+        android:layout_marginTop="@dimen/firstFriendNameMargTop"
+        android:layout_marginEnd="@dimen/firstFriendNameMargEnd"
+        android:fontFamily="sans-serif"
+        android:text="@string/firstFriend"
+        android:textColor="@color/black__87"
+        android:textSize="@dimen/firstFriendNameTextSize"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/secondFriendPicMargTop"
+        android:layout_marginEnd="@dimen/secondFriendPicMargEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@mipmap/avatar_2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/secondFriendNameMargTop"
+        android:layout_marginEnd="@dimen/secondFriendNameMargEnd"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black__87"
+        android:textSize="@dimen/secondFriendNameTextSize"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        android:text="@string/secondFriend"/>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/thirdFriendPicMargTop"
+        android:layout_marginEnd="@dimen/thirdFriendPicMargEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@mipmap/avatar_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/thirdFriendNameMargTop"
+        android:layout_marginEnd="@dimen/thirdFriendPicMargEnd"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black__87"
+        android:textSize="@dimen/thirdFriendNameTextSize"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        android:text="@string/thirdFriend"/>
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/secondLineMargTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/line" />
+
+    <Button
+        android:id="@+id/logOff"
+        android:layout_width="@dimen/logOffBtnWidth"
+        android:layout_height="@dimen/logOffBtnHeight"
+        android:layout_marginStart="@dimen/logOffBtnMargStart"
+        android:layout_marginTop="@dimen/logOffBtnMargTop"
+        android:layout_marginEnd="@dimen/logOffBtnMargEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        android:background="@color/leaf">
+    </Button>
+
+    <TextView
+        android:id="@+id/logOffText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/logOffBtnTextMargTop"
+        android:layout_marginBottom="@dimen/logOffBtnTextMargBottom"
+        android:layout_marginEnd="@dimen/logOffBtnTextMargEnd"
+        android:layout_marginStart="@dimen/logOffBtnTextMargStart"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:letterSpacing="0.04"
+        android:text="@string/logOffText"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/logOffBtnTextSize"
+        android:textStyle="normal"
+        android:elevation="@dimen/logOffBtnTextElevation"
+        app:layout_constraintEnd_toEndOf="@+id/logOff"
+        app:layout_constraintStart_toStartOf="@+id/logOff"
+        app:layout_constraintTop_toTopOf="@id/logOff"
+        app:layout_constraintBottom_toBottomOf="@id/logOff"/>
+
+    <ImageView
+        android:id="@+id/heart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/profileBot"
+        android:layout_alignTop="@+id/shadowView1"
+        android:layout_marginStart="@dimen/profileHeartMargStart"
+        android:layout_marginEnd="@dimen/profileHeartMargEnd"
+        android:layout_marginBottom="@dimen/profileHeartMargBottom"
+        android:src="@drawable/shape"
+        app:layout_constraintBottom_toBottomOf="@+id/profileBot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/shadowView1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/shadowHeight"
+        android:background="@drawable/shadow_shape"
+        android:layout_above="@+id/profileBot"
+        app:layout_constraintBottom_toTopOf="@id/profileBot"/>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/profileBot"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/profileBotNavHeight"
+        android:layout_marginTop="@dimen/profileBotNavMargTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logOff"
+        app:menu="@menu/profile_bot_nav"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/profileHeaderMargStart"
+        android:layout_marginEnd="@dimen/profileHeaderMargEnd"
+        android:layout_marginTop="@dimen/profileHeaderMargTop"
+        android:layout_marginBottom="@dimen/profileHeaderMargBottom"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/profileHeaderTextSize"
+        app:layout_constraintEnd_toEndOf="@id/toolBar"
+        app:layout_constraintStart_toStartOf="@id/toolBar"
+        app:layout_constraintBottom_toBottomOf="@+id/toolBar"
+        android:text="@string/profileHeader" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="@dimen/editPicWidth"
+        android:layout_height="@dimen/editPicHeight"
+        android:layout_marginStart="@dimen/editPicMargStart"
+        android:layout_marginBottom="@dimen/editPicMargBottom"
+        app:layout_constraintBottom_toBottomOf="@+id/toolBar"
+        app:layout_constraintEnd_toEndOf="@+id/toolBar"
+        app:layout_constraintStart_toStartOf="@+id/toolBar"
+        app:srcCompat="@mipmap/edit" />
+
+
+</android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

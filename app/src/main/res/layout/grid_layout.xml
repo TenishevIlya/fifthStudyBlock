@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rel_root"
+    android:layout_width="168dp"
+    android:layout_height="128dp"
+    android:layout_margin="4dp"
+    android:background="@color/colorGray">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="@dimen/gridImageWidth"
+        android:layout_height="@dimen/gridImageHeight"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="36dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/gridTextViewMargTop"
+        android:layout_marginBottom="@dimen/gridTextViewMargBot"
+        android:text="TextView"
+        android:textSize="@dimen/gridTextViewTextSize"
+        android:textColor="@color/light_olive_green"
+        android:gravity="center_horizontal"/>
+    
+
+</RelativeLayout>

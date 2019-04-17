@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="wannaHelpLeftMarg">58dp</dimen>
+    <dimen name="wannaHelpRightMarg">58dp</dimen>
+    <dimen name="wannaHelpTopMarg">154dp</dimen>
+    <dimen name="wannaHelpWidth">245dp</dimen>
+    <dimen name="wannaHelpHeight">73dp</dimen>
+
+    <dimen name="progBarWidth">38dp</dimen>
+    <dimen name="progBarHeight">38dp</dimen>
+    <dimen name="progBarLeftMarg">161dp</dimen>
+    <dimen name="progBarRightMarg">161dp</dimen>
+    <dimen name="progBarTopMarg">83dp</dimen>
+
+
+    <dimen name="loadTextTopMarg">20dp</dimen>
+    <dimen name="loadTextLeftMarg">146dp</dimen>
+    <dimen name="loadTextRigthMarg">146dp</dimen>
+    <dimen name="loadTextWidth">68dp</dimen>
+    <dimen name="loadTextHeight">20dp</dimen>
+
+    <dimen name="simbirImgTopMarg">124dp</dimen>
+    <dimen name="simbirImgRightMarg">122dp</dimen>
+    <dimen name="simbirImgLeftMarg">122dp</dimen>
+    <dimen name="simbirImgBotMarg">40dp</dimen>
+
+    <dimen name="circleWidth">42dp</dimen>
+    <dimen name="circleHeight">42dp</dimen>
+
+    <dimen name="gridImageHeight">80dp</dimen>
+    <dimen name="gridImageWidth">120dp</dimen>
+    <dimen name="gridImageMargLeft">24dp</dimen>
+    <dimen name="gridImageMargRight">24dp</dimen>
+    <dimen name="gridImageMargTop">12dp</dimen>
+    <dimen name="gridImageMargBot">36dp</dimen>
+
+    <dimen name="gridTextViewMargTop">104dp</dimen>
+    <dimen name="gridTextViewMargBot">5dp</dimen>
+    <dimen name="gridTextViewTextSize">15sp</dimen>
+
+    <dimen name="recyclerViewMargTop">20dp</dimen>
+
+    <dimen name="recyclerTextViewHeight">19dp</dimen>
+    <dimen name="recyclerTextViewWidth">223dp</dimen>
+    <dimen name="recyclerViewTextViewMargLeft">69dp</dimen>
+    <dimen name="recyclerViewTextViewMargTop">19dp</dimen>
+    <dimen name="recyclerViewTextViewMargRight">69dp</dimen>
+    <dimen name="recyclerViewTextViewSize">16sp</dimen>
+
+    <dimen name="bottomNavHeight">54dp</dimen>
+
+    <dimen name="profileImageHeight">220dp</dimen>
+
+    <dimen name="profileNameMrgTop">20dp</dimen>
+    <dimen name="profileNameMrgStart">20dp</dimen>
+    <dimen name="profileNameMrgEnd">102dp</dimen>
+    <dimen name="profileNameTextSize">24sp</dimen>
+    <dimen name="profileNameLineSpacing">8sp</dimen>
+
+    <dimen name="birthHeaderMrgTop">16dp</dimen>
+    <dimen name="birthHeaderMrgStart">29dp</dimen>
+    <dimen name="birthHeaderMrgEnd">259dp</dimen>
+    <dimen name="birthHeaderTextSize">12sp</dimen>
+    <dimen name="birthHeaderLineSpacing">4sp</dimen>
+    <string name="birthHeaderBias">0.25</string>
+
+    <dimen name="birthDateMrgTop">32dp</dimen>
+    <dimen name="birthDateMrgStart">20dp</dimen>
+    <dimen name="birthDateMrgEnd">213dp</dimen>
+    <dimen name="birthDateTextSize">16sp</dimen>
+    <dimen name="birthDateLineSpacing">8sp</dimen>
+
+    <dimen name="sphereHeaderMrgTop">16dp</dimen>
+    <dimen name="sphereHeaderMrgEnd">259dp</dimen>
+    <dimen name="sphereHeaderTextSize">12sp</dimen>
+    <dimen name="sphereHeaderLineSpacing">4sp</dimen>
+
+    <dimen name="sphereMrgTop">134dp</dimen>
+    <dimen name="sphereMrgEnd">148dp</dimen>
+    <dimen name="sphereTextSize">16sp</dimen>
+    <dimen name="sphereLineSpacing">8sp</dimen>
+
+    <dimen name="pushMrgTop">20dp</dimen>
+    <dimen name="pushMrgEnd">1218dp</dimen>
+    <dimen name="pushTextSize">16sp</dimen>
+
+    <dimen name="friendsHeaderMrgTop">20dp</dimen>
+    <dimen name="friendsHeaderMrgEnd">267dp</dimen>
+    <dimen name="friendsHeaderTextSize">12sp</dimen>
+    <dimen name="friendsHeaderLineSpacing">4sp</dimen>
+
+    <dimen name="switchMargTop">20dp</dimen>
+    <dimen name="switchMargStart">58dp</dimen>
+    <dimen name="switchMargEnd">26dp</dimen>
+
+    <dimen name="lineMargTop">18dp</dimen>
+
+    <dimen name="firstFriendPicMargTop">16dp</dimen>
+    <dimen name="firstFriendPicMargEnd">292dp</dimen>
+
+    <dimen name="secondFriendPicMargTop">74dp</dimen>
+    <dimen name="secondFriendPicMargEnd">292dp</dimen>
+
+    <dimen name="thirdFriendPicMargTop">132dp</dimen>
+    <dimen name="thirdFriendPicMargEnd">292dp</dimen>
+
+    <dimen name="firstFriendNameMargTop">27dp</dimen>
+    <dimen name="firstFriendNameMargStart">88dp</dimen>
+    <dimen name="firstFriendNameMargEnd">128dp</dimen>
+    <dimen name="firstFriendNameTextSize">16sp</dimen>
+
+    <dimen name="secondFriendNameMargTop">85dp</dimen>
+    <dimen name="secondFriendNameMargEnd">107dp</dimen>
+    <dimen name="secondFriendNameTextSize">16sp</dimen>
+
+    <dimen name="thirdFriendNameMargTop">145dp</dimen>
+    <dimen name="thirdFriendNameMargEnd">107dp</dimen>
+    <dimen name="thirdFriendNameTextSize">16sp</dimen>
+
+    <dimen name="secondLineMargTop">20dp</dimen>
+
+    <dimen name="logOffBtnMargTop">20dp</dimen>
+    <dimen name="logOffBtnMargStart">97dp</dimen>
+    <dimen name="logOffBtnMargEnd">97dp</dimen>
+    <dimen name="logOffBtnWidth">166dp</dimen>
+    <dimen name="logOffBtnHeight">36dp</dimen>
+
+    <dimen name="logOffBtnTextMargTop">11dp</dimen>
+    <dimen name="logOffBtnTextMargBottom">9dp</dimen>
+    <dimen name="logOffBtnTextMargStart">16dp</dimen>
+    <dimen name="logOffBtnTextMargEnd">16dp</dimen>
+    <dimen name="logOffBtnTextSize">14sp</dimen>
+    <dimen name="logOffBtnTextElevation">2dp</dimen>
+
+    <dimen name="profileHeartMargStart">153dp</dimen>
+    <dimen name="profileHeartMargEnd">153dp</dimen>
+    <dimen name="profileHeartMargBottom">22dp</dimen>
+
+    <dimen name="shadowHeight">2dp</dimen>
+
+    <dimen name="profileBotNavHeight">54dp</dimen>
+    <dimen name="profileBotNavMargTop">38dp</dimen>
+
+    <dimen name="profileHeaderMargTop">25dp</dimen>
+    <dimen name="profileHeaderMargBottom">14dp</dimen>
+    <dimen name="profileHeaderMargStart">139.5dp</dimen>
+    <dimen name="profileHeaderMargEnd">139.5dp</dimen>
+    <dimen name="profileHeaderTextSize">21sp</dimen>
+
+    <dimen name="editPicMargBottom">16dp</dimen>
+    <dimen name="editPicMargStart">316dp</dimen>
+    <dimen name="editPicWidth">24dp</dimen>
+    <dimen name="editPicHeight">24dp</dimen>
+
+    <dimen name="dialogPicHeight">24dp</dimen>
+    <dimen name="dialogPicWidth">24dp</dimen>
+    <dimen name="dialogPicMargStart">24dp</dimen>
+    <dimen name="dialogPicMargEnd">24dp</dimen>
+
+    <dimen name="dialogPic1MargTop">32dp</dimen>
+    <dimen name="dialogPic1MargBot">164dp</dimen>
+
+    <dimen name="dialogPic2MargTop">100dp</dimen>
+    <dimen name="dialogPic2MargBot">96dp</dimen>
+
+    <dimen name="dialogPic3MargTop">168dp</dimen>
+    <dimen name="dialogPic3MargBot">28dp</dimen>
+
+    <dimen name="dialogTextSize">22sp</dimen>
+
+    <dimen name="dialogText1MargTop">31dp</dimen>
+    <dimen name="dialogText1MargBot">164dp</dimen>
+    <dimen name="dialogText1MargStart">72dp</dimen>
+    <dimen name="dialogText1MargEnd">91dp</dimen>
+
+    <dimen name="dialogText2MargTop">99dp</dimen>
+    <dimen name="dialogText2MargBot">96dp</dimen>
+
+    <dimen name="dialogText3MargTop">167dp</dimen>
+    <dimen name="dialogText3MargBot">28dp</dimen>
+</resources>

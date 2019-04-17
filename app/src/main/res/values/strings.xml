@@ -1,7 +1,38 @@
-<resources>
+<resources xmlns:android="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">TheNewestProject</string>
     <string name="str">Hello World!</string>
     <string name="anotherstr">Hello World!</string>
     <string name="click">Click</string>
     <string name="textByButton">textText</string>
+    <string name="loadingText">Загрузка...</string>
+    <string name="testText">TextText</string>
+    <string name="news">Новости</string>
+    <string name="search">Поиск</string>
+    <string name="help">Помощь</string>
+    <string name="history">История</string>
+    <string name="profile">Профиль</string>
+    <string name="chooseCategory">Выберите категорию помощи</string>
+    <string-array name="imageTitles">
+        <item>Дети</item>
+        <item>Взрослые</item>
+        <item>Пожилые</item>
+        <item>Животные</item>
+        <item>Мероприятия</item>
+    </string-array>
+    <string name="actionBarTitle">Помочь</string>
+    <string name="profileNameText">Константинов Денис</string>
+    <string name="birthHeaderText">Дата рождения</string>
+    <string name="birthDate">01 февраля 1980</string>
+    <string name="sphere">Сфера деятельности</string>
+    <string name="sphereText">Хирургия, травмотология</string>
+    <string name="receivePush">Получать push-уведомления</string>
+    <string name="yourFriends">Ваши друзья</string>
+    <string name="firstFriend">Дмитрий Валерьевич</string>
+    <string name="secondFriend">Евгений Александров</string>
+    <string name="thirdFriend">Виктор Кузнецов</string>
+    <string name="logOffText">Выйти из аккаунта</string>
+    <string name="profileHeader">Профиль</string>
+    <string name="chooseFoto">Выбрать фото</string>
+    <string name="makeFoto">Сделать снимок</string>
+    <string name="deleteFoto">Удалить</string>
 </resources>
